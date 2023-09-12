@@ -1,0 +1,81 @@
+.confetti {
+    max-width: 650px;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    display: none;
+}
+
+* {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -khtml-user-select: none !important;
+    -ms-user-select: none !important;
+}
+
+/* animation confetti */
+
+body {
+    scroll-behavior: smooth;
+}
+
+#rec619199760 {
+    display: none;
+}
+
+#rec619199761 .t396__artboard {
+    display: none;
+}
+
+#names_redact {
+    position: relative;
+    left: -9px;
+    width: 50%;
+    margin: 100px auto;
+}
+
+#flex_cont {
+    display: flex;
+    justify-content: center;
+}
+
+#gen_img {
+    border-radius: 60px;
+    box-shadow: 0 0 50px -21px black;
+}
+
+.par-contGlob {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph1 {
+    color: rgb(169, 149, 125);
+    width: 50%;
+}
+.Alluppercase{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:1200px) {
+    .paragraph1 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .paragraph1 {
+        width: 90%;
+    }
+
+    #gen_img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    iframe {
+        margin-bottom: 60px;
+    }
+}
